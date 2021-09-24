@@ -52,6 +52,7 @@ img{
 nav{
   float: right;
   position: relative;
+	max-width: fit-content;
 }
 .nav{
   max-height: 50px;
@@ -81,14 +82,11 @@ footer{
 	height: 400px;
 	background: transparent;
 	max-width: 100%;
-	margin-right: 0px;
-	margin-left: 0px;
 	box-sizing: border-box;
 	border: 2px solid transparent;
-	border-top: 2px solid white;
 	padding: 20px;
 	margin-bottom: 0px;
-  margin-top: 400px;
+  margin-top: 450px;
 }
 form{
 	margin-top: 80px;
@@ -153,10 +151,9 @@ border: 1px solid black;
 .reg{
 	max-height: 200px;
 	max-width: 150px;
-	margin: auto;
 	background: transparent;
 	margin-bottom: 100px;
-  margin-right: 50px;
+  margin-right: 20px;
   float: right;
 	padding: 10px;
 	border: 2px solid transparent;
@@ -209,7 +206,6 @@ animation-duration: 3s;
 #reg{
 	max-height: fit-content;
 	max-width: fit-content;
-	margin: auto;
 	background: transparent;
   float: left;
 	margin-bottom: 20px;
@@ -218,6 +214,7 @@ animation-duration: 3s;
 	border-radius: 10px;
 	box-sizing: border-box;
 	margin-top: 200px;
+	margin-right: 10px;
 }
 
 h2{
